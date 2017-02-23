@@ -18,7 +18,7 @@ function draw() {
 	background(0);
 	angle = mouseX/width*PI; //define angle using Mouse X position
 
-	translate(width/2, 0); //translate to the top of canvas
+	translate(width/2, 0); //translate to the middle of canvas
 	branch(250); //call branch function with line length of 250
 }
 
